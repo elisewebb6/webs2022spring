@@ -1,4 +1,3 @@
-file:///Users/elisewebb/Documents/webs2022spring/%20index.html/01-hello-atom/page-one.html
 
 
 # Project 3: Website Portfolio
