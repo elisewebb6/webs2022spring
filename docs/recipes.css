@@ -44,3 +44,6 @@ div {
 a {
   color: black
 }
+ul.a {
+  list-style-type: circle;
+}
