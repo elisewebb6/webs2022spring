@@ -44,3 +44,6 @@ div {
 a {
   color: black
 }
+ol{
+  list-style-type: cricle;
+}
