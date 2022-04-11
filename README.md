@@ -1,4 +1,4 @@
-
+The goal of my website is essentially to spread awarness and raise money for ALS. After one paitent that I worked with passed away I wanted to continue to spread and share his love and passion for baking by creating a bake sale fundraiser in his memory. The website contains links to outside informational sources, some pastry recipes, and lists everything we are selling in the fundraiser. 
 
 # Project 3: Website Portfolio
 
