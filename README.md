@@ -1,5 +1,12 @@
 The goal of my website is essentially to spread awarness and raise money for ALS. After one paitent that I worked with passed away I wanted to continue to spread and share his love and passion for baking by creating a bake sale fundraiser in his memory. The website contains links to outside informational sources, some pastry recipes, and lists everything we are selling in the fundraiser. 
 
+ASSETS
+- ALS image created by myself
+- Chocolate chip cookie picture taken by myself
+- Molasses cookie picture taken by myself
+- Sugar cookie picture taken by myself
+
+
 # Project 3: Website Portfolio
 
 Your task in this unit is to **build a multi-page website using basic html and css files** — as opposed to a site manager like WordPress or Wix — **along with any media assets you wish to embed.** (Any JavaScript or animation you want to add for interactivity is welcome, but above and beyond expectations.) In assigning this, I have two main goals for you:
