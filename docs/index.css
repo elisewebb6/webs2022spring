@@ -50,7 +50,12 @@
  }
 
 
-
+ .page {
+   width: 900px;
+   margin: 0 auto;
+   overflow: hidden;             
+   background-color: #EAEDF0;
+ }
 .menu {
   float: center;
   height: 500px;
