@@ -1,7 +1,3 @@
-body {
-   background-color: whites;
- }
-
 
  div {
    text-align: center;
@@ -53,15 +49,17 @@ body {
    text-align: center;
  }
 
- .menu {
-  height: 100px;
+
+
+.menu {
+  height: 500px;
   background-color: #B2D6FF;
 }
-
 .sidebar {
-   float: left;  
+  float: left;
   height: 300px;
   background-color: #F09A9D;
+  clear: both;            
 }
 
 .content {
