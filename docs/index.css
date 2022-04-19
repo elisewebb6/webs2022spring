@@ -53,7 +53,7 @@
  .page {
    width: 900px;
    margin: 0 auto;
-   overflow: hidden;             
+   overflow: hidden;
    background-color: #EAEDF0;
  }
 .menu {
@@ -65,7 +65,7 @@
   float: left;
   height: 300px;
   background-color: #F09A9D;
-  clear: both;
+
 }
 
 .content {
@@ -76,4 +76,5 @@
 .footer {
   height: 200px;
   background-color: #D6E9FE;
+  clear: both;
 }
