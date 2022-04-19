@@ -1,26 +1,11 @@
 body {
    background-color: whites;
  }
- img {
-   float: left;
-width: 300px;
-height: 200px;
-margin-right: 20px;
-margin-bottom: 20px;
- }
- h1 {
-   text-align: center;
-   border: 3px solid black;
- }
 
- #hp  {
-float: left;
- margin: 0 15px 0 0;
-}
 
- }
  div {
    text-align: center;
+
  }
  a {
    color: black
@@ -67,3 +52,23 @@ float: left;
  p {
    text-align: center;
  }
+ 
+ .menu {
+  height: 100px;
+  background-color: #B2D6FF;
+}
+
+.sidebar {
+  height: 300px;
+  background-color: #F09A9D;
+}
+
+.content {
+  height: 500px;
+  background-color: #F5CF8E;
+}
+
+.footer {
+  height: 200px;
+  background-color: #D6E9FE;
+}
