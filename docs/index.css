@@ -54,27 +54,27 @@
    width: 900px;
    margin: 0 auto;
    overflow: hidden;
-   background-color: #EAEDF0;
+   background-color: #white;
  }
 .menu {
   float: center;
-  height: 500px;
-  background-color: #B2D6FF;
+  height: 200px;
+  background-color: #pink;
 }
 .sidebar {
   float: left;
   height: 300px;
-  background-color: #F09A9D;
+  background-color: #yellow;
 
 }
 
 .content {
   height: 500px;
-  background-color: #F5CF8E;
+  background-color: #white;
 }
 
 .footer {
   height: 200px;
-  background-color: #D6E9FE;
+  background-color: #powderblue;
   clear: both;
 }
