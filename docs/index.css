@@ -7,21 +7,29 @@
    color: black
  }
  button {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 10%;
-   background-color: grey
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  background-color: powderblue;
+  top:50%;
+  color: #FFFFFF;
+  border:none;
+  padding-top: 0
+
+
  }
  .topnav {
    overflow: hidden;
    background-color: powderblue;
+   display: flex;
+   justify-content: center;
    }
  ul {
    list-style-type: none;
    margin: 0;
-   padding: 0;
-   overflow: hidden;
+   padding: 10;
+   overflow:scroll;
    background-color: #powderblue;
  }
  li {
@@ -31,55 +39,93 @@
    display: block;
    color: black;
    text-align: center;
-   padding: 14px 16px;
+   padding: 20px 20px;
    text-decoration: none;
+   font-family:monospace;
+   font-size: 15;
+
+
  }
  li a:hover {
    background-color: #black;
+
  }
  li {
-   border-right: 1px solid #bbb;
+  border-right: 1px solid #FFFFFF;
+
  }
 
- li:last-child {
+ li :last-of-type {
    border-right: none;
  }
 
- p {
-   text-align: center;
+
+ h1{
+   font-family:monospace;
+   font-size: 60
+
  }
+
+ p.one{
+   text-align: center;
+   font-size: 40;
+   font-family:monospace;
+   padding-top: 150;
+
+ }
+
+p.two{
+  text-align: center;
+  font-size: 15;
+  font-family:monospace;
+  padding-top: 10;
+  padding-left: 100;
+  padding-right: 100;
+
+}
+
+img{ width: 500;
+}
 
 
  .page {
    width: 900px;
    margin: 0 auto;
-   overflow: hidden;
-   background-color: #white;
+   overflow: visible;
+   background-color: #FFFFFF;
  }
 .menu {
   float: center;
   height: 100px;
-  background-color: #FFD700;
+  background-color: #FFFFFF;
   text-align: center;
-  text-decoration-color: #F8F8FF
-
+  text-decoration-color: #FFFFFF;
+  overflow: visible;
 
 }
 .sidebar {
   float: left;
   height: 500px;
   background-color: #yellow;
+  overflow: visible;
 
 }
 
 .content {
   height: 500px;
+  float: center;
   background-color: #white;
+  overflow: visible;
+
 }
 
 .footer {
   height: 200px;
-  background-color: #powderblue;
+  background-color: #FFFFFF;
   clear: both;
   text-align: center;
+  overflow: visible;
+  border-top:1px solid #888;
+  border-bottom:1px solid #888;
+
 }
