@@ -1,15 +1,18 @@
 body {
    background-color: whites;
 
- }.topnav {
+ }
+ .topnav {
    overflow: hidden;
    background-color: powderblue;
+   display: flex;
+   justify-content: center;
    }
  ul {
    list-style-type: none;
    margin: 0;
-   padding: 0;
-   overflow: hidden;
+   padding: 10;
+   overflow:scroll;
    background-color: #powderblue;
  }
  li {
@@ -19,25 +22,36 @@ body {
    display: block;
    color: black;
    text-align: center;
-   padding: 14px 16px;
+   padding: 20px 20px;
    text-decoration: none;
+   font-family:monospace;
+   font-size: 15;
+
+
  }
  li a:hover {
    background-color: #black;
+
  }
  li {
-   border-right: 1px solid #bbb;
+  border-right: 1px solid #FFFFFF;
+
  }
- li:last-child {
+
+ li last-child  {
    border-right: none;
  }
 
  h1 {
    text-align: center;
    border: 3px solid black;
+    font-family:monospace;
+    font-size: 35;
  }
  h2 {
    text-align: center;
+    font-family:monospace;
+        font-size: 30;
  }
  div {
    text-align: center;
@@ -51,6 +65,7 @@ body {
    margin-right: auto;
    width: 60%;
  }
+ p {  font-family:monospace;}
 
  button {
    display: block;

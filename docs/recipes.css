@@ -1,3 +1,4 @@
+
 .topnav {
   overflow: hidden;
   background-color: powderblue;
@@ -11,8 +12,9 @@ ul.navigation {
   overflow:scroll;
   background-color: #powderblue;
 }
-li {
+.navigation li {
   float: left;
+  border-right: 1px solid #FFFFFF;
 }
 li a {
   display: block;
@@ -23,42 +25,136 @@ li a {
   font-family:monospace;
   font-size: 15;
 
-
 }
 li a:hover {
   background-color: #black;
-
-}
-li {
- border-right: 1px solid #FFFFFF;
-
 }
 
- ul.buttercream {
-   list-style-type: circle;
-   margin: 0;
-   padding: 0;
-   overflow: visible;
+
+
+.header {
+    grid-area: hd;
+}
+.footer {
+    grid-area: ft;
+    border-bottom: 1px solid #888
+}
+.content {
+    grid-area: main;
+
+}
+.sidebar {
+    grid-area: sd;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+      "hd hd hd hd   hd   hd   hd   hd   hd"
+      "sd sd sd main main  main main main main"
+      "ft ft ft ft   ft   ft   ft   ft   ft";
+}
+
+
+ul.buttercream {
+  padding: 0;
+    padding-top: 50;
+    padding-left: 20;
+  text-align: left;
 
 }
 
-ul.cake {
-  list-style-type: circle;
-margin: 0;
-padding: 0;
-overflow: visible;}
+ul.cake {  padding: 0;
+    padding-top: 50;
+    padding-left: 20;
+  text-align: left;
+}
+
+ul.eclairs{
+    padding: 0;
+    padding-top: 50;
+    padding-left: 20;
+  text-align: left;
+}
+
+ul.eclairss {  padding: o;
+    padding-top: 300;
+    padding-left: 20;
+  text-align: left;
+}
+
+
+
+
+
+.content p {
+  float: left;
+  font-size: 20;
+  font-family:monospace;
+}
+.buttercream li {
+  float: center;
+  font-family:monospace;
+  font-size: 15
+}
+
+.cake li {
+  float: center;
+  font-family:monospace;
+  font-size: 15}
+
+.eclairs li{
+  float: center;
+  font-family:monospace;
+  font-size: 15}
+
+.eclairss li {
+  float: center;
+  font-family:monospace;
+  font-size: 15}
+
+p.two {
+  font-size: 15;
+  float: left;}
+
+img.Buttercream {
+  width: 250;
+  float: right;
+  padding-right: 50
+}
+
+img.cake {  width: 250;
+  float: right;
+  padding-right: 50;
+  padding-top: 20;}
+
+img.eclairs {width: 250;
+  float: right;
+  padding-right: 50;
+  padding-top: 20;}
+
+img.eclairss {width: 250;
+    float: right;
+    padding-right: 50;
+    padding-top: 20;}
 
 
  h1 {
    text-align: center;
    border: 3px solid black;
+   font-family:monospace;
+   font-size: 35
  }
  h2 {
    text-align: center;
+   font-family:monospace;
+   font-size: 30
  }
- div {
-   text-align: center;
- }
+
+
+
  a {
    color: black
  }

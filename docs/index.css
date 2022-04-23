@@ -55,7 +55,7 @@
 
  }
 
- li :last-of-type {
+ li last-child  {
    border-right: none;
  }
 
