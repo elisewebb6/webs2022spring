@@ -5,6 +5,7 @@ ASSETS
 - Chocolate chip cookie picture taken by myself
 - Molasses cookie picture taken by myself
 - Sugar cookie picture taken by myself
+- "eclair photos" by Didi Miam is licensed under the https://unsplash.com/license
 
 
 # Project 3: Website Portfolio
