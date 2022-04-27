@@ -6,6 +6,8 @@ ASSETS
 - Molasses cookie picture taken by myself
 - Sugar cookie picture taken by myself
 - "eclair photos" by Didi Miam is licensed under the https://unsplash.com/license
+- "chocolate cake photo" is licensed under the https://unsplash.com/license
+- "buttercream" is licensed under the https://unsplash.com/license
 
 
 # Project 3: Website Portfolio
